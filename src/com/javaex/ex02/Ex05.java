@@ -21,7 +21,8 @@ public class Ex05 {
 		
 		System.out.println("당신의 이름은 "+name+" 나이는 "+age+" 키는 "+height+" 입니다.");
 		
-// github test //
+// git hub  test //
+		System.out.println("git hub testing...");
 		sc.close();
 	}
 
