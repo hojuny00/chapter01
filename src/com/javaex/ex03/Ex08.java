@@ -14,7 +14,7 @@ public class Ex08 {
 		int num= sc.nextInt();
 		
 		
-		if(num<0) {
+		/* if(num<0) {
 			System.out.println("음수입니다.");
 		}
 	
@@ -26,6 +26,21 @@ public class Ex08 {
 		}
 		else {
 			System.out.println("짝수입니다.");
+		} */
+		
+		// if 안에 if 사용가능
+		if(num>0) {
+			if(num%2==0) {
+				System.out.println("짝수입니다.");
+			} else {
+				System.out.println("홀수입니다.");
+			}
+		}
+		else if(num<0) {
+			System.out.println("음수입니다.");
+		}
+		else {
+			System.out.println("0입니다.");
 		}
 		
 		sc.close();
