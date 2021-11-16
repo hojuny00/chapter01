@@ -12,7 +12,7 @@ public class Ex07 {
 		
 		int score= sc.nextInt();
 		
-		if(score>=90) {
+		/* if(score>=90) {
 			System.out.println("A등급");
 		}
 		else if(score>=80) {
@@ -26,11 +26,24 @@ public class Ex07 {
 		}
 		else {
 			System.out.println("F등급");
+		} */
+		// && 이용하여 동시에 2가지 조건 만족시킬수 있음
+		if (score>=90) {
+			System.out.println("A등급");
 		}
-		
+		else if(89>=score&&80<=score) {
+			System.out.println("B등급");
+		}
+		else if(79>=score&&70<=score) {
+			System.out.println("C등급");
+		}
+		else if(69>=score&&60<=score) {
+			System.out.println("D등급");
+		}
+		else {
+			System.out.println("F등급");
+		}
 		sc.close();
-		
-
 	}
 
 }
